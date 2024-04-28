@@ -127,7 +127,7 @@ body.scrollable {
 }
 
 body {
-  font-size: var(--body-font-size-m);
+  font-size: var(--body-font-size-xs);
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
@@ -210,7 +210,8 @@ a:hover {
 }
 
 /* buttons */
-a.button:any-link, button {
+/* a.button:any-link,  */
+button {
   font-family: var(--body-font-family);
   display: inline-block;
   box-sizing: border-box;
