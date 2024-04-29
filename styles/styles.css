@@ -25,6 +25,8 @@
   --body-font-family: adobe-clean, sans-serif;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --body-link-color: blue;
+  --body-link-decoration:underline;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -213,9 +215,10 @@ a:hover {
 /* a.button:any-link,  */
 button {
   font-family: var(--body-font-family);
+  font-color: var(--body-link-color);
   display: inline-block;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: var(--body-link-decoration);
   border: 2px solid transparent;
   padding: 5px 30px;
   text-align: center;
